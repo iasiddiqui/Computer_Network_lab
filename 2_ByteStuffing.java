@@ -30,3 +30,55 @@
             System.out.println("received data is         " + str2);
         }
     }
+//---------------------------------------------------------------------------------------------------------------------
+
+
+import java.util.*;
+
+class ByteStuffingA {
+
+    public static void byteStuffing() {
+        Scanner k = new Scanner(System.in);
+        System.out.println("enter the string\t");
+        String s = k.nextLine();
+        String str1;
+        String str2 = "";
+        int i, m;
+        m = s.length();
+        System.out.println("original data  " + s);
+        str1 = "dlestx";
+        str1 = str1 + s;
+        str1 = str1 + "dleetx";
+        int p = str1.length();
+        System.out.println("transmitted data " + str1);
+        str2 = s;
+        System.out.println("received data is  " + str2);
+    }
+    public static void main(String args[]) {
+
+        byteStuffing();
+    }
+}
+
+    
+    
+    
+    
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+     
+
+    
